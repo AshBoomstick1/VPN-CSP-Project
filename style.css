@@ -9,18 +9,27 @@ body {
 }
 
 header {
+  height: 70px;
+  padding: 10px;
   background-color: rgba(255, 255, 255, 0.5);
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 1fr 2fr 1fr;
+  grid-template-columns: 1fr 0.5fr 2fr 1fr 2.5fr 1fr;
+}
+
+header img {
+  border-radius: 10%;
+  height: 50px;
 }
 
 #title {
+  margin-left:10px;
+  font-size: 35px;
   text-align: left;
 }
 
 #title_container {
   list-style: none;
-  display: inline-block;
+  display: inline-flex;
 }
 
 h1 {
@@ -50,9 +59,11 @@ p {
 }
 
 a {
-  padding: 10px;
   border-radius: 5px;
   text-align: center;
+  line-height: 50px;
+  font-size:25px;
+  color: #22222a;
   font-family: Inter, "Segoe UI", sans-serif;
   text-decoration: none;
 }
@@ -62,12 +73,12 @@ a:hover {
 }
 
 img {
-  border-radius: 5%;
+  border-radius: 25%;
 }
 
 ul {
   list-style: none;
-  display: inline-block;
+  display: inline-flex;
 }
 
 section {
