@@ -61,6 +61,10 @@ a:hover {
   background-color: rgb(218, 218, 218);
 }
 
+img {
+  border-radius: 5%;
+}
+
 ul {
   list-style: none;
   display: inline-block;
