@@ -18,18 +18,9 @@ header {
   text-align: left;
 }
 
-.card {
-    margin: 10px;
-}
-
-.card_info {
-    display: grid;
-    padding: 5px;
-    height: max-content;
-    max-width: max-content;
-    border: 2.5px solid #ebe4f1;
-    background-color: #faf7fc;
-    border-radius: 10px;
+#title_container {
+  list-style: none;
+  display: inline-block;
 }
 
 h1 {
@@ -63,6 +54,7 @@ a {
   border-radius: 5px;
   text-align: center;
   font-family: Inter, "Segoe UI", sans-serif;
+  text-decoration: none;
 }
 
 a:hover {
@@ -72,6 +64,24 @@ a:hover {
 ul {
   list-style: none;
   display: inline-block;
+}
+
+section {
+  border: solid #22222a 1px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card_info {
+    display: grid;
+    padding: 5px;
+    height: max-content;
+    max-width: max-content;
+    border: 2.5px solid #ebe4f1;
+    background-color: #faf7fc;
+    border-radius: 10px;
 }
 
 .card_grid {
