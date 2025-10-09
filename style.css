@@ -21,6 +21,7 @@ header {
 
 header img {
   height: 50px;
+  border-radius: 5px;
 }
 
 #title {
@@ -53,8 +54,14 @@ header img {
   color: white;
   font-size: 20px;
   margin: 10px;
+  margin-left: 0px;
   font-weight: bold;
   background-color: #9750df;
+  transition: background-color 50ms ease-in-out;
+}
+
+#intro a:hover{
+  background-color: #8536d4;
 }
 
 #intro img {
