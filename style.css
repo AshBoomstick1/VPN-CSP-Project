@@ -55,6 +55,7 @@ a {
   text-align: center;
   font-family: Inter, "Segoe UI", sans-serif;
   text-decoration: none;
+  transition: background-color 350ms ease-in-out;
 }
 
 a:hover {
