@@ -51,6 +51,10 @@ header img {
   text-align: left;
 }
 
+#intro p {
+  color: rgb(110, 110, 110);
+}
+
 #intro a {
   color: white;
   font-size: 20px;
