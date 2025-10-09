@@ -44,7 +44,8 @@ h2 {
     color: #22222a;
     text-align: center;
     padding-bottom: 5px;
-    font-size: x-large;
+    margin-top: 50px;
+    font-size: 50px;
     font-family: Inter, "Segoe UI", sans-serif;
 }
 
@@ -102,12 +103,14 @@ section {
     padding: 5px;
     border: 2.5px solid #ebe4f1;
     background-color: #faf7fc;
+    padding: 20px;
     border-radius: 10px;
 }
 
 .card_info img {
   height: 60px;
   border-radius: 35%;
+  margin-bottom: 15px;
 }
 
 .card_grid {
