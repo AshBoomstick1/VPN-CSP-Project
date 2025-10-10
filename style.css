@@ -97,6 +97,11 @@ header img {
   border-radius: 5px;
 }
 
+#nav_bar_background {
+  height: 70px; 
+  border: solid light-dark(rgb(221, 221, 213), #22222a) 1px;
+}
+
 .title {
   color: light-dark(black, #e0dde2);
   margin-left: 10px;
