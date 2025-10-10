@@ -177,8 +177,13 @@ footer {
 
 footer div {
   width: max-content;
-  display: grid;
-  grid-template-areas: "a b" "c c";
+  display: block;
+}
+
+footer h3 {
+  height: 100%;
+  line-height: 49px;
+  display: inline;
 }
 
 footer img {
