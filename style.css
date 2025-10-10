@@ -217,12 +217,94 @@ a:hover {
   text-align: right;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 600px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+  header .title {
+    display: none;
+  }
+
   .card_grid {
     grid-template-columns: 1fr;
   }
+  
+  #intro {
+    padding: 20px 20px;
+    display: block;
+  }
+  
+  #intro a {
+    display: block;
+    margin-left: 10%;
+    width: 80%;
+    padding: 0px;
+    font-size: 20px;
+  }
+  
+  #intro div {
+    margin-right: 0px;
+  }
+  
+  #intro img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+  }
+  
+  .card_grid {
+  width: 95%;
+  margin-left:2.5%;
+    padding: 0px;
+  }
+  
+  .card_grid img{
+    margin: 5px;
+  }
+
+  footer div {
+    width: min-content;
+    display: block;
+  }
+  
+  footer #credits p{
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+  }
+  
+  footer #credits a{
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+    line-height: 0px;
+  }
 }
 
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .card_grid {
+    grid-template-columns: 1fr;
+  }
+  
+  #intro {
+    padding: 75px 50px;
+    display: block;
+  }
+  
+  #intro a {
+    font-size: 16px;
+  }
+  
+  #intro div {
+    margin-right: 60px;
+  }
+  
+  #intro img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+  }
+}
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
   .card_grid {
     grid-template-columns: 1fr 1fr;
