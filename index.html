@@ -76,12 +76,13 @@
         <div id="credits">
           <p>Made by:</p>
           <a href="https://github.com/AshBoomstick1">Ash</a>
-          <a>Oswaldo</a>
+          <a href="https://github.com/28oswaldohernandezonate-star">Oswaldo</a>
         </div>
       </footer>
       <script>
         let body = document.getElementsByTagName("body");
         let light_dark_button = document.getElementById("light-dark");
+        body[0].style.colorScheme = "light";
 
         const changeColor = () => {
           if (body[0].style.colorScheme = "light")
@@ -89,7 +90,8 @@
             body[0].style.colorScheme = "dark";
             light_dark_button.innerHTML = "Dark";
           }
-          else
+          
+          if (body[0].style.colorScheme = "dark")
           {
             body[0].style.colorScheme = "light";
             light_dark_button.innerHTML = "Light";
