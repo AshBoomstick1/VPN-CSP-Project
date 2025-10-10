@@ -12,7 +12,7 @@
 body {
     background-color: light-dark(#fdfdfe, #1a141f);
     overflow-x: hidden;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 header {

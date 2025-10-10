@@ -17,7 +17,7 @@
           <li><a href="#pricing">Pricing</a></li>
         </ul>
         <div class="whitespace"></div>
-        <div></div>
+        <p id="light-dark">Dark</p>
       </header>
       <section style="height: 70px; border: 0px;"></section>
       <section id="intro">
@@ -79,5 +79,22 @@
           <a>Oswaldo</a>
         </div>
       </footer>
+      <script>
+        let body = document.getElementsByTagName("body");
+        let light_dark_button = document.getElementById("light-dark");
+
+        const changeColor = () => {
+          if (body[0].style.colorScheme = "light")
+          {
+            body[0].style.colorScheme = "dark";
+          }
+          else
+          {
+            body[0].style.colorScheme = "light";
+          }
+        }
+
+        light_dark_button.addEventListener("click", changeColor());
+      </script>
     </body>
 </html>
