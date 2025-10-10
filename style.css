@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light dark;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,18 +10,19 @@
 }
 
 body {
-    background-color: #fdfdfe;
+    background-color: light-dark(#fdfdfe, #1a141f);
     overflow-x: hidden;
+  color-scheme: dark;
 }
 
 header {
   position: fixed;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: light-dark(rgba(255, 255, 255, 0.5), rgba(26, 20, 31, 0.5));
   display: grid;
   grid-template-columns: 1fr 0.5fr 2fr 1fr 2.5fr 1fr;
   height: 70px;
-  border: solid #22222a 1px;
+  border: solid light-dark(#22222a, rgb(221, 221, 213)) 1px;
   border-bottom: 0px;
   backdrop-filter: blur(5px);
 }
@@ -28,6 +33,7 @@ header img {
 }
 
 .title {
+  color: light-dark(black, #e0dde2);
   margin-left: 10px;
   font-size: 35px;
   text-align: left;
@@ -48,27 +54,28 @@ header img {
 }
 
 #intro h2 {
+  color: light-dark(white, #9750df);
   padding: 0px;
   margin: 0px;
   text-align: left;
 }
 
 #intro p {
-  color: rgb(110, 110, 110);
+  color: light-dark(rgb(110, 110, 110), rgb(110, 110, 110));
 }
 
 #intro a {
-  color: white;
+  color: light-dark(white, #e0dde2);
   font-size: 20px;
   margin: 10px;
   margin-left: 0px;
   font-weight: bold;
-  background-color: #9750df;
+  background-color: light-dark(#9750df, #9750df);
   transition: all 50ms ease-in-out;
 }
 
 #intro a:hover{
-  background-color: #8536d4;
+  background-color: light-dark(#8536d4, #8536d4);
   font-size: 20.3px;
 }
 
@@ -78,14 +85,14 @@ header img {
 }
 
 h1 {
-    color: #22222a;
+    color: light-dark(#22222a, #e0dde2);
     text-align: center;
     padding-bottom: 10px;
     font-family: Inter, "Segoe UI", sans-serif;
 }
 
 h2 {
-    color: #22222a;
+    color: light-dark(#22222a, #e0dde2);
     text-align: center;
     padding-bottom: 5px;
     margin-top: 50px;
@@ -106,7 +113,7 @@ p {
 
 a {
   margin: 10px;
-  color: #22222a;
+  color: light-dark(#22222a, #e0dde2);
   padding: 10px;
   border-radius: 5px;
   text-align: center;
@@ -118,7 +125,7 @@ a {
 }
 
 a:hover {
-  background-color: rgb(218, 218, 218);
+  background-color: light-dark(rgb(218, 218, 218), rgb(218, 218, 218));
 }
 
 img {
@@ -131,7 +138,7 @@ ul {
 }
 
 section {
-  border: solid #22222a 1px;
+  border: solid light-dark(#22222a, #22222a) 1px;
   border-bottom: 0px;
 }
 
@@ -149,8 +156,9 @@ section {
     height: max-content;
     width: 100%;
     padding: 5px;
-    border: 2.5px solid #ebe4f1;
-    background-color: #faf7fc;
+    border: 2.5px solid light-dark(#22222a, #22222a);
+    color: light-dark(black, white);
+    background-color: light-dark(#faf7fc, #211b27);
     padding: 20px;
     border-radius: 10px;
 }
@@ -173,7 +181,7 @@ section {
 
 footer {
   padding: 20px;
-  border: 1px solid #22222a;
+  border: 1px solid light-dark(#22222a, #22222a);
   display: grid;
   grid-template-columns: 1fr 100px;
 }
@@ -181,6 +189,10 @@ footer {
 footer div {
   width: max-content;
   display: block;
+}
+
+footer div p {
+  color: light-dark(black, #9750df);
 }
 
 footer div div{
@@ -209,7 +221,7 @@ footer img {
 }
 
 a:hover {
-  background-color: rgba(218, 218, 218, 0.5);
+  background-color: light-dark(rgba(218, 218, 218, 0.5), #9750df);
 }
 
 #credits p {
