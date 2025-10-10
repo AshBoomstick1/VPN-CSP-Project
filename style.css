@@ -93,7 +93,12 @@ header p {
   font-size: 25px;
   line-height: 50px;
   cursor: pointer;
-  transition: background-color 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+header p:hover {
+  background-color: light-dark(#9750df, rgba(255, 255, 255, 0.5));
+  color: light-dark(#e0dde2, #22222a);
 }
 
 header img {
