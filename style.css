@@ -87,9 +87,13 @@ header {
 
 header p {
   color: light-dark(#22222a, #e0dde2);
+  margin: 0px;
+  border-radius: 5px;
+  text-align: center;
   font-size: 25px;
   line-height: 50px;
   cursor: pointer;
+  transition: background-color 300ms ease-in-out;
 }
 
 header img {
