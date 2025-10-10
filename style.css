@@ -27,7 +27,7 @@ header img {
   border-radius: 5px;
 }
 
-#title {
+.title {
   margin-left: 10px;
   font-size: 35px;
   text-align: left;
@@ -173,6 +173,8 @@ section {
 footer {
   padding: 20px;
   border: 1px solid #22222a;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 footer div {
@@ -180,15 +182,21 @@ footer div {
   display: block;
 }
 
-footer h3 {
-  height: 100%;
-  line-height: 49px;
-  display: inline;
+footer div div{
+  height: 50px;
+  width: max-content;
+  display: inline-flex;
 }
 
 footer img {
   height: 50px;
   border-radius: 5px;
+}
+
+#credits {
+  width: 100%;
+  text-align: right;
+  display: block;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
