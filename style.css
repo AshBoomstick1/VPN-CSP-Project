@@ -64,11 +64,12 @@ header img {
   margin-left: 0px;
   font-weight: bold;
   background-color: #9750df;
-  transition: background-color 50ms ease-in-out;
+  transition: all 50ms ease-in-out;
 }
 
 #intro a:hover{
   background-color: #8536d4;
+  font-size: 20.3px;
 }
 
 #intro img {
@@ -174,7 +175,7 @@ footer {
   padding: 20px;
   border: 1px solid #22222a;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 100px;
 }
 
 footer div {
@@ -194,9 +195,26 @@ footer img {
 }
 
 #credits {
-  width: 100%;
+  width: max-content;
   text-align: right;
-  display: block;
+  display: grid;
+}
+
+#credits a {
+  width: max-content;
+  padding: 5px;
+  margin: 0px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+a:hover {
+  background-color: rgba(218, 218, 218, 0.5);
+}
+
+#credits p {
+  font-weight: 600;
+  text-align: right;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
