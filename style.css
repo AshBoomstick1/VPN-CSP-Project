@@ -368,6 +368,44 @@ a:hover {
   .card_grid img{
     margin: 5px;
   }
+  
+  #large_descriptions div {
+   margin: 2.5%;
+   margin-bottom: 75px;
+   width: 95%;
+  padding: 10px;
+  display: block;
+}
+  
+  #large_descriptions div div {
+    margin-bottom: 20px;
+  }
+  
+  #large_descriptions img {
+    width: 95%;
+    margin-left:2.5%;
+    height: auto;
+  }
+  
+  #large_descriptions .image_beneath {
+    display: block;
+  }
+  
+  #large_descriptions .image_left {
+    display: none;
+  }
+  
+  #pricing .card_grid {
+    margin-left:10%;
+    width: 80%;
+    grid-template-columns: 1fr;
+  }
+  
+  #pricing .card{
+    margin: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
 
   footer div {
     width: min-content;
@@ -417,6 +455,45 @@ a:hover {
     margin-top: 50px;
     border-radius: 25px;
   }
+  
+  
+  #large_descriptions div {
+   margin: 2.5%;
+   margin-bottom: 75px;
+   width: 95%;
+  padding: 10px;
+  display: block;
+}
+  
+  #large_descriptions div div {
+    margin-bottom: 20px;
+  }
+  
+  #large_descriptions img {
+    width: 95%;
+    margin-left:2.5%;
+    height: auto;
+  }
+  
+  #large_descriptions .image_beneath {
+    display: block;
+  }
+  
+  #large_descriptions .image_left {
+    display: none;
+  }
+  
+  #pricing .card_grid {
+    margin-left:10%;
+    width: 80%;
+    grid-template-columns: 1fr;
+  }
+  
+  #pricing .card{
+    margin: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
   .card_grid {
@@ -444,6 +521,35 @@ a:hover {
     width: 100%;
     height: auto;
     margin-top: 50px;
+  }
+  
+  #large_descriptions div {
+    display: block;
+    margin-bottom: 150px;
+  }
+  
+  #large_descriptions div div {
+    margin-bottom: 50px;
+  }
+  
+  #large_descriptions img {
+    width: 80%;
+    margin-left:10%;
+    height: auto;
+  }
+  
+  #large_descriptions .image_beneath {
+    display: block;
+  }
+  
+  #large_descriptions .image_left {
+    display: none;
+  }
+  
+  #pricing .card_grid {
+    margin-left:10%;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -502,6 +608,11 @@ a:hover {
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
   #large_descriptions div {
     display: block;
+    margin-bottom: 150px;
+  }
+  
+  #large_descriptions div div {
+    margin-bottom: 50px;
   }
   
   #large_descriptions img {
