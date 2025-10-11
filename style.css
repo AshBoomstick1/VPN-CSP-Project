@@ -209,20 +209,27 @@ header img {
 
 #large_descriptions div {
   margin: 50px 100px;
+  margin-bottom: 100px;
   padding: 10px;
-  display: grid;
-  grid-template-areas: 
-    "h2 img"
-    "p img";
-  grid-template-columns: 1fr 1fr;
+  display: inline-flex;
 }
 
 #large_descriptions div div {
- margin-right: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  display: block;
+}
+
+#large_descriptions h3 {
+   text-align: left;
+}
+
+#large_descriptions p {
+  font-size: 30px;
 }
 
 #large_descriptions img {
-  width: 700px;
+  width: 50em;
   height: auto;
 }
 
