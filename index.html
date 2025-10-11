@@ -182,7 +182,7 @@
         light_dark_button.addEventListener("click", changeColor);
 
 
-        let nav_bar_anchors = document.getElementsByName("a");
+        let nav_bar_anchors = document.getElementById("mobile_nav_bar").document.getElementsByName("a");
         let mobile_nav_button = document.getElementById("nav_bar_menu_button");
         let mobile_nav = document.getElementById("mobile_nav_bar");
         let mobile_nav_bar_visable = false;
@@ -222,10 +222,9 @@
         }
 
         mobile_nav_button.addEventListener("click", transition_decide);
-        nav_bar_anchors[3].addEventListener("click", anchor_clicked);
-        nav_bar_anchors[4].addEventListener("click", anchor_clicked);
-        nav_bar_anchors[5].addEventListener("click", anchor_clicked);
-        console.log(nav_bar_anchors)
+        nav_bar_anchors[0].addEventListener("click", anchor_clicked);
+        nav_bar_anchors[1].addEventListener("click", anchor_clicked);
+        nav_bar_anchors[2].addEventListener("click", anchor_clicked);
       </script>
     </body>
 </html>
