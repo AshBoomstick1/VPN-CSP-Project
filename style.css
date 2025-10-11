@@ -240,6 +240,10 @@ header img {
   transition: all 20ms cubic-bezier(0,.83,.85,1.23);
 }
 
+#large_descriptions .image_beneath {
+  display: none;
+}
+
 #large_descriptions img:hover{
   filter:brightness(1.2);
   scale: 1.01;
@@ -484,6 +488,14 @@ a:hover {
   #large_descriptions img {
     height: 20em;
   }
+  
+  .image_beneath {
+    display: block;
+  }
+  
+  .image_left {
+    display: none;
+  }
 
 }
 
@@ -496,6 +508,14 @@ a:hover {
     width: 60%;
     margin-left:20%;
     height: auto;
+  }
+  
+  #large_descriptions .image_beneath {
+    display: block;
+  }
+  
+  #large_descriptions .image_left {
+    display: none;
   }
 }
 
