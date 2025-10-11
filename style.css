@@ -116,6 +116,16 @@ header img {
   border: solid light-dark(rgb(221, 221, 213), #22222a) 1px;
 }
 
+#nav_bar_menu_button {
+  display: none;
+}
+
+#mobile_nav_bar {
+  display: none; 
+  width: max-content;
+  border: solid light-dark(#22222a, #22222a) 1px;
+}
+
 .title {
   color: light-dark(black, #e0dde2);
   margin-left: 10px;

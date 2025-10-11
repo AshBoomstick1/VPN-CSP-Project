@@ -194,7 +194,7 @@
         ];
 
         const mobile_nav_timing = {
-          duration: 10,
+          duration: 100,
           iterations: 1,
         };
 
@@ -202,11 +202,13 @@
           if (mobile_nav_bar_visable == false)
           {
             mobile_nav_bar_visable = true;
+            mobile_nav.style.display = "grid";
             mobile_nav.animate(mobile_nav_apear, mobile_nav_timing);
           }
           else if (mobile_nav_bar_visable == true)
           {
             mobile_nav_bar_visable = false;
+            mobile_nav.style.display = "none";
             mobile_nav.animate(mobile_nav_disapear, mobile_nav_timing);
           }
         }
