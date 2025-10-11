@@ -86,8 +86,11 @@ header {
 }
 
 header p {
+  width: max-content;
+  height: auto;
   color: light-dark(#22222a, #e0dde2);
   margin: 0px;
+  padding: 0px 20px;
   border-radius: 5px;
   text-align: center;
   font-size: 25px;
@@ -198,6 +201,29 @@ header img {
   margin-left:10%;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+#large_descriptions {
+  display: block;
+}
+
+#large_descriptions div {
+  margin: 50px 100px;
+  padding: 10px;
+  display: grid;
+  grid-template-areas: 
+    "h2 img"
+    "p img";
+  grid-template-columns: 1fr 1fr;
+}
+
+#large_descriptions div div {
+ margin-right: 100px;
+}
+
+#large_descriptions img {
+  width: 700px;
+  height: auto;
 }
 
 footer {
