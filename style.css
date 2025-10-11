@@ -123,7 +123,7 @@ header img {
 #mobile_nav_bar {
   position: fixed;
   display: none; 
-  width: max-content;
+  width: 100%;
   padding: 40px;
   z-index: 999;
   border: solid light-dark(#22222a, #22222a) 1px;
@@ -132,7 +132,7 @@ header img {
 }
 
 #mobile_nav_bar a {
-  font-size: 100px;
+  font-size: 80px;
   line-height: 120px;
 }
 
@@ -350,6 +350,15 @@ a:hover {
   header .title {
     display: none;
   }
+  
+  #mobile_nav_bar {
+    padding: 10px;
+  }
+  
+  #mobile_nav_bar a {
+    font-size: 40px;
+    line-height: 100px;
+  }
 
   .card_grid {
     grid-template-columns: 1fr;
@@ -515,6 +524,18 @@ a:hover {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 400px) and (max-width: 525px) {
+  #mobile_nav_bar {
+    padding: 15px;
+  }
+  
+  #mobile_nav_bar a {
+    font-size: 60px;
+    line-height: 120px;
+  }
+}
+
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
   .card_grid {
     grid-template-columns: 1fr 1fr;
