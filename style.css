@@ -223,7 +223,7 @@ header img {
 
 #large_descriptions h3 {
   font-size: 35px;
-  color: light-dark(black, #8536d4);
+  color: light-dark(black, #9750df);
    text-align: left;
 }
 
@@ -242,6 +242,33 @@ header img {
 #large_descriptions img:hover{
   filter:brightness(1.2);
   scale: 1.01;
+}
+
+#pricing .card_grid {
+  margin-left:25%;
+  width: 50%;
+}
+
+#pricing .card {
+  width: max-content;
+}
+
+#pricing .card_info {
+  padding: 30px;
+}
+
+#pricing ul {
+  display: block;
+  font-size: 25px;
+}
+
+#pricing .cost {
+  font-size: 30px;
+  color: light-dark(black, #9750df);
+}
+
+#pricing {
+  font-size: 35px;
 }
 
 footer {
