@@ -121,9 +121,19 @@ header img {
 }
 
 #mobile_nav_bar {
+  position: fixed;
   display: none; 
   width: max-content;
+  padding: 40px;
+  z-index: 999;
   border: solid light-dark(#22222a, #22222a) 1px;
+  background-color: light-dark(rgba(255, 255, 255, 0.7), rgba(26, 20, 31, 0.7));
+  backdrop-filter: blur(4px);
+}
+
+#mobile_nav_bar a {
+  font-size: 100px;
+  line-height: 120px;
 }
 
 .title {
@@ -560,6 +570,31 @@ a:hover {
     margin-left:10%;
     width: 80%;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  header ul {
+    display: none;
+  }
+  
+  header p {
+    float:right;
+  }
+  
+  header #nav_bar_menu_button {
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 740px) {
+  header #nav_bar_menu_button {
+    display: none;
+  }
+  
+  #mobile_nav_bar {
+    display: none !important;
   }
 }
 
