@@ -176,6 +176,7 @@ header img {
   font-weight: bold;
   background-color: light-dark(#9750df, #9750df);
   transition: all 50ms ease-in-out;
+  text-wrap: nowrap;
 }
 
 #intro a:hover{
@@ -270,8 +271,8 @@ header img {
 }
 
 #pricing .card_grid {
-  margin-left:25%;
-  width: 50%;
+  margin-left:15%;
+  width: 70%;
 }
 
 #pricing .card {
