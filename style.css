@@ -177,6 +177,7 @@ header img {
   background-color: light-dark(#9750df, #9750df);
   transition: all 50ms ease-in-out;
   text-wrap: nowrap;
+  filter: drop-shadow(1px 1px 1px #000000);
 }
 
 #intro a:hover{
@@ -259,6 +260,7 @@ header img {
   height: 20em;
   border-radius: 35px;
   transition: all 20ms cubic-bezier(0,.83,.85,1.23);
+  filter: drop-shadow(0.5px 0.5px 0.5px #000000);
 }
 
 #large_descriptions .image_beneath {
