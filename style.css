@@ -310,13 +310,13 @@ header img {
 
 #pricing h3 {
   text-align: center;
-  font-size: 25px;
+  font-size: 22.5px;
   color: light-dark(rgb(110, 110, 110), rgb(110, 110, 110));
 }
 
 #pricing .card_info h3 {
   text-align: left;
-  font-size: 35px;
+  font-size: 30px;
   color: light-dark(black, #9750df);
 }
 
