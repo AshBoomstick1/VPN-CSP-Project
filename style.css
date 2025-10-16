@@ -309,7 +309,7 @@ header img {
 #pricing .card_info h3 {
   text-align: left;
   font-size: 35px;
-  color: light-dark(black, white);
+  color: light-dark(black, #9750df);
 }
 
 footer {
