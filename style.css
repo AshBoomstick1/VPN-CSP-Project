@@ -173,7 +173,7 @@ header img {
 }
 
 #intro p {
-  color: light-dark(rgb(110, 110, 110), rgb(110, 110, 110));
+  color: light-dark(rgb(110, 110, 110), rgb(190, 190, 190));
 }
 
 #intro a {
@@ -701,6 +701,15 @@ a:hover {
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
+  #intro {
+    padding: 75px 50px;
+    display: inline-flex;
+  }
+  
+  #intro div {
+    margin-right: 40px;
+  }
+  
   #large_descriptions div {
     display: block;
     margin-bottom: 150px;
