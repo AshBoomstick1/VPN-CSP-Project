@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: light-dark(#e0cbf6, #1a141f);
+    background-color: light-dark(#fdfdfe, #1a141f);
     overflow-x: hidden;
     color-scheme: light;
 }
